@@ -10,7 +10,6 @@ listSelectedPokemon.forEach((pokemon) => {
 
     let selectedCard = `card-${idSelected}`;
     const cardPokemonToOpen = document.getElementById(selectedCard);
-    console.log(idSelected);
     cardPokemonToOpen.classList.add("open");
 
     const activePokemon = document.querySelector(".active");
